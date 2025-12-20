@@ -60,5 +60,5 @@ NO (No Occlusion), PO (Partial Occlusion), HO (Hyaline Occlusion), LI (Low Illum
   author    = {Falaki, Mahdi and Amer, Maria A.},
   booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year      = {2026},
-  note      = {Submitted}
+  note      = {Under Review}
 }
