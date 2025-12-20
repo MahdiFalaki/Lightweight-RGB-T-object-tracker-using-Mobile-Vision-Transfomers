@@ -13,7 +13,7 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 ![The pipeline of proposed RGB-T tracker](Pipeline.png)  
 *Figure 1: Pipeline of the proposed RGB-T tracker.*
 
-![Architecture of mmMobileViT](mmMpbileViT.png)  
+![Architecture of mmMobileViT](mmMobileViT.png)  
 *Figure 1: Pipeline of the proposed RGB-T tracker.*
 
 ![Additional visual material from the submission](ablation.png)  
