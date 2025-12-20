@@ -10,14 +10,21 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 
 ## Highlights
 
-![The pipeline of proposed RGB-T tracker](Pipeline.png)  
-*Figure 1: Pipeline of the proposed RGB-T tracker.*
+<p align="center">
+  <img src="Pipeline.png" alt="The pipeline of proposed RGB-T tracker" width="900">
+</p>
+<p align="center"><i>Figure 1: The pipeline of proposed RGB-T tracker.</i></p>
 
-![Architecture of mmMobileViT](mmMobileViT.png)  
-*Figure 1: Pipeline of the proposed RGB-T tracker.*
+<p align="center">
+  <img src="mmMobileViT.png" alt="Architecture of the proposed mmMobileViT block." width="900">
+</p>
+<p align="center"><i>Figure 1: Architecture of the proposed mmMobileViT block.</i></p>
 
-![Additional visual material from the submission](ablation.png)  
-*Figure 2: Visual material from the submission.*
+<p align="center">
+  <img src="ablation.png" alt="Additional visual material from the submission" width="900">
+</p>
+<p align="center"><i>Figure 1: Additional visual material from the submission.</i></p>
+
 
 *Table 1: Comparison on LasHeR, RGBT234, and GTOT.*
 
