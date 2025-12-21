@@ -50,6 +50,8 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 **Attributes (RGBT234):**  
 NO (No Occlusion), PO (Partial Occlusion), HO (Hyaline Occlusion), LI (Low Illumination), LR (Low Resolution), TC (Thermal Crossover), DEF (Deformation), FM (Fast Motion), SV (Scale Variation), MB (Motion Blur), CM (Camera Moving), BC (Background Clutter).
 
+Across both radar plots, excluding NO (No Occlusion) where performance is highest, the tracker is most robust under PO (Partial Occlusion) and TC (Thermal Crossover), and it also performs strongly under SV/SC (Scale Variation). In contrast, it is most vulnerable to BC (Background Clutter) and HO (Hyaline Occlusion), with additional degradation under LR (Low Resolution) and FM (Fast Motion).
+
 ---
 
 ## Citation
