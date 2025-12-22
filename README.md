@@ -13,20 +13,20 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 <p align="center">
   <img src="Pipeline.png" alt="The pipeline of proposed RGB-T tracker" width="900">
 </p>
-<p align="center"><i>Figure 1: The pipeline of proposed RGB-T tracker.</i></p>
+<p align="center"><i>Figure: The pipeline of proposed RGB-T tracker.</i></p>
 
 <p align="center">
   <img src="mmMobileViT.png" alt="Architecture of the proposed mmMobileViT block." width="900">
 </p>
-<p align="center"><i>Figure 1: Architecture of the proposed mmMobileViT block.</i></p>
+<p align="center"><i>Figure: Architecture of the proposed mmMobileViT block.</i></p>
 
 <p align="center">
   <img src="ablation.png" alt="Additional visual material from the submission" width="900">
 </p>
-<p align="center"><i>Figure 1: Additional visual material from the submission.</i></p>
+<p align="center"><i>Figure: Additional visual material from the submission.</i></p>
 
 
-*Table 1: Comparison on LasHeR, RGBT234, and GTOT.*
+*Table: Comparison on LasHeR, RGBT234, and GTOT.*
 
 | Tracker | #Params (M) | MACs (G) | FPS (GPU) | LasHeR PR | LasHeR SR | LasHeR NPR | RGBT234 MPR | RGBT234 MSR | GTOT PR | GTOT SR |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
