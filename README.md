@@ -46,8 +46,6 @@ conda env create -f environment.yml
 conda activate mobilevit-track
 ```
 
---- 
-
 Generate the relevant files:
 ```bash
 python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
