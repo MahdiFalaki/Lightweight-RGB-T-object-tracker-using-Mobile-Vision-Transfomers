@@ -76,7 +76,7 @@ python tracking/test.py --tracker_name mmMobileViT_Track --tracker_param mobilev
 
 * Change the `DEVICE` variable between `cuda` and `cpu` in the `lib/config/mmMobileViT_Track/config.py` file for GPU and CPU-based inference, respectively.
 * The raw results will be stored under `RGBT_workspace/results/` folder.
-* Change `RGBT234` to `LasHeR` and `GTOT` for testing on LasHeR and GTOT, respectively.
+* Change `--dataset RGBT234` to `LasHeR` and `GTOT` for testing on LasHeR and GTOT, respectively.
 * Use raw results to evaluate with ground truth data.
 
 ---
