@@ -25,7 +25,7 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 <p align="center">
   <img src="ablation.png" alt="Additional visual material from the submission" width="900">
 </p>
-<p align="center"><i>Figure: Additional visual material from the submission.</i></p>
+<p align="center"><i>Figure: RGB Tracking vs. RGB-T Tracking. </i></p>
 
 *Table: Comparison on LasHeR, RGBT234, and GTOT.*
 
