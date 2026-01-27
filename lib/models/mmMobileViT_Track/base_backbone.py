@@ -64,25 +64,25 @@ class BaseEncoder(nn.Module):
         x_v = self._forward_conv_layer(self.conv_1, x[0])
         x_i = self._forward_conv_layer(self.conv_1, x[1])
         # commented only when testing
-        z_v = self._forward_conv_layer(self.conv_1, z[0])
-        z_i = self._forward_conv_layer(self.conv_1, z[1])
+        # z_v = self._forward_conv_layer(self.conv_1, z[0])
+        # z_i = self._forward_conv_layer(self.conv_1, z[1])
 
         # layer_1 (MobileNetV2)
         x_v = self._forward_conv_layer(self.layer_1, x_v)
         x_i = self._forward_conv_layer(self.layer_1, x_i)
         # commented only when testing
-        z_v = self._forward_conv_layer(self.layer_1, z_v)
-        z_i = self._forward_conv_layer(self.layer_1, z_i)
+        # z_v = self._forward_conv_layer(self.layer_1, z_v)
+        # z_i = self._forward_conv_layer(self.layer_1, z_i)
 
         # layer_2 (MobileNetV2)
         x_v = self._forward_conv_layer(self.layer_2, x_v)
         x_i = self._forward_conv_layer(self.layer_2, x_i)
         # commented only when testing
-        z_v = self._forward_conv_layer(self.layer_2, z_v)
-        z_i = self._forward_conv_layer(self.layer_2, z_i)
+        # z_v = self._forward_conv_layer(self.layer_2, z_v)
+        # z_i = self._forward_conv_layer(self.layer_2, z_i)
 
         # layer_3 (MobileNetV2 + 2 x SMAT)
-        x_v, z_v, x_i, z_i = self._forward_MobileViT_layer(self.layer_3, x_v, z_v, x_i, z_i)
+        x_v, z_v, x_i, z_i = self._forward_MobileViT_layer(self.layer_3, x_v, z[0], x_i, z[1])
 
         # layer_4 (MobileNetV2 + 4 x SMAT)
         x_v, z_v, x_i, z_i = self._forward_MobileViT_layer(self.layer_4, x_v, z_v, x_i, z_i)
