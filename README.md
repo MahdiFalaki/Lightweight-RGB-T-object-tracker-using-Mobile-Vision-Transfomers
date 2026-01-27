@@ -67,7 +67,7 @@ Pretrained model weights can be downloaded from [Drive Link](https://drive.googl
 
 ## Tracker Evaluation
 
-* Update the <DATASET_PATH> and <SAVE_PATH> in `RGBT_workspace/test_rgbt_mgpus.py`.
+* Update the <DATASET_PATH> and <SAVE_PATH> in [test_rgbt_mgpus.py](https://github.com/MahdiFalaki/Lightweight-RGB-T-object-tracker-using-Mobile-Vision-Transfomers/blob/main/RGBT_workspace/test_rgbt_mgpus.py).
 * Download, place the pretrained tracker model zip file under the `models/` folder, and unzip it.
 * Run
 ```bash
@@ -76,6 +76,7 @@ python tracking/test.py --tracker_name mmMobileViT_Track --tracker_param mobilev
 
 * Change the `DEVICE` variable between `cuda` and `cpu` in the `lib/config/mmMobileViT_Track/config.py` file for GPU and CPU-based inference, respectively.
 * The raw results will be stored under `RGBT_workspace/results/` folder.
+* Change `RGBT234` to `LasHeR` and `GTOT` for testing on LasHeR and GTOT, respectively.
 * Use raw results to evaluate with ground truth data.
 
 ---
