@@ -95,7 +95,15 @@ Across both radar plots, excluding NO (No Occlusion), where performance is highe
 
 ---
 
+## Acknowledgements
+* We use the Separable Self-Attention Transformer implementation and the pretrained `MobileViTv2` backbone from [ml-cvnets](https://github.com/apple/ml-cvnets). 
+* Our training code is built upon [SMAT](https://github.com/goutamyg/SMAT/tree/main) and [ViPT](https://github.com/jiawen-zhu/ViPT), thanks!
+* To generate the evaluation metrics for different datasets, we refer you to [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for LasHeR evaluation, to [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 evaluation, and to [GTOT-Toolkit](https://github.com/xuboyue1999/RGBT-Tracking/tree/main/GTOT-toolkit) for GTOT.
+---
+
 ## Citation
+
+You're welcome to use the work for your research. Please consider citing:
 
 ```bibtex
 @inproceedings{falaki2026lightweight_rgbt_mobilevit,
