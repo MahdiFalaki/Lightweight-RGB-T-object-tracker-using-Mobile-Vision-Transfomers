@@ -40,7 +40,7 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 
 ## Environment Setup (Conda)
 
-### Option 1: Create environment from `environment.yml` 
+Create the environment from `environment.yml`.
 ```bash
 conda env create -f environment.yml
 conda activate mobilevit-track
