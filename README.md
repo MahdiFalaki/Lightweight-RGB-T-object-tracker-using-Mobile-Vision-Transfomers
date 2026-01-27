@@ -55,7 +55,7 @@ lib/train/admin/local.py          # paths about training
 * Set the path of training datasets in `lib/train/admin/local.py`
 * Download the pretrained MobileViTv2 backbone weights from [MobileViTv2 weights](https://huggingface.co/apple/mobilevitv2-1.0-imagenet1k-256) and place it under the `pretrained_models/` folder.
 * For data preparation, please refer to [this](https://github.com/jiawen-zhu/ViPT)
-* Uncomment lines `67-68, 74-75, and 81-82`, and change line `85` to `x_v, z_v, x_i, z_i = self._forward_MobileViT_layer(self.layer_3, x_v, z_v, x_i, z_i)` in the [base_backbone.py](https://github.com/goutamyg/SMAT/blob/main/lib/models/mobilevit_track/base_backbone.py) file. 
+* Uncomment lines `67-68, 74-75, and 81-82`, and change line `85` to `x_v, z_v, x_i, z_i = self._forward_MobileViT_layer(self.layer_3, x_v, z_v, x_i, z_i)` in the [base_backbone.py](https://github.com/MahdiFalaki/Lightweight-RGB-T-object-tracker-using-Mobile-Vision-Transfomers/blob/main/lib/models/mmMobileViT_Track/base_backbone.py) file. 
 * Run
 ```bash
 python tracking/train.py --script mmMobileViT_Track --config mobilevitv2_256_128x1_LasHeR_60ep --save_dir ./output --mode single
