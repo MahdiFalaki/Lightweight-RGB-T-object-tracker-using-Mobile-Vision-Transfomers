@@ -8,13 +8,9 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 
 ## Highlights
 
-<table align="center">
-  <tr>
-    <td bgcolor="white" style="padding:12px; border-radius:8px;">
+<p align="center">
       <img src="Pipeline.png" alt="The pipeline of proposed RGB-T tracker" width="900">
-    </td>
-  </tr>
-</table>
+</p>
 <p align="center"><i>Figure: The pipeline of proposed RGB-T tracker.</i></p>
 
 <p align="center">
