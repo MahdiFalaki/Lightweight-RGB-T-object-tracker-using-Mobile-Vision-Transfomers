@@ -113,7 +113,7 @@ Across both radar plots, excluding NO (No Occlusion), where performance is highe
 You're welcome to use the work for your research. Please consider citing:
 
 ```bibtex
-@inproceedings{falaki2026lightweight_rgbt_mobilevit,
+@inproceedings{falaki2025lightweightrgbttrackingmobile,
   title     = {Lightweight RGB-T Tracking with Mobile Vision Transformers},
   author    = {Falaki, Mahdi and Amer, Maria A.},
   booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
