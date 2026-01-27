@@ -38,7 +38,15 @@ Department of Electrical and Computer Engineering, Concordia University, Montré
 
 ## Installation
 
-Install the dependency packages (Conda recommended).
+## Environment Setup (Conda)
+
+### Option 1: Create environment from `environment.yml` 
+```bash
+conda env create -f environment.yml
+conda activate mobilevit-track
+```
+
+--- 
 
 Generate the relevant files:
 ```bash
