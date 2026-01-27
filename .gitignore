@@ -1,0 +1,15 @@
+
+# Training artifacts / large files
+pretrained_models/
+output/
+models/
+tensorboard/
+
+# Common junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.idea/
+.vscode/
