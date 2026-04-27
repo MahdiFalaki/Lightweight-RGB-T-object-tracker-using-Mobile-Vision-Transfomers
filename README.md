@@ -69,7 +69,7 @@ python tracking/train.py --script mmMobileViT_Track --config mobilevitv2_256_128
 * The saved checkpoints and training logs will be saved under `output/` folder.
 
 ## Pretrained tracker model
-Pretrained model weights can be downloaded from [Drive Link]([https://drive.google.com/file/d/1mMlugWT31Bc0bx-Z_2gljVldpoQBjp9_/view?usp=drive_link](https://drive.google.com/drive/folders/15m-MSOf1arjp2VXU1R2484o4U4hUfSyB)).
+Pretrained model weights can be downloaded from [Drive Link](https://drive.google.com/drive/folders/15m-MSOf1arjp2VXU1R2484o4U4hUfSyB).
 
 ## Tracker Evaluation
 
