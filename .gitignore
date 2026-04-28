@@ -21,5 +21,7 @@ tools/onnx/artifacts/*.npy
 tools/onnx/artifacts/*.json
 tools/onnx/artifacts/*.txt
 tools/onnx/artifacts/tracker_smoke/*.txt
+tools/onnx/artifacts/tracker_smoke/*.json
+tools/onnx/artifacts/tracker_smoke/*.npy
 tools/onnx/artifacts/tracker_smoke/debug_frames/
 tools/onnx/IMPLEMENTATION_STATUS.md
