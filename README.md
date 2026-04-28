@@ -85,6 +85,43 @@ python tracking/test.py --tracker_name mmMobileViT_Track --tracker_param mobilev
 * Change `--dataset RGBT234` to `LasHeR` and `GTOT` for testing on LasHeR and GTOT, respectively.
 * Use raw results to evaluate with ground truth data.
 
+## ONNX Deployment Validation
+
+This repository also includes an optional ONNX validation workflow for the pretrained core tracker network. The ONNX scripts export the fixed-shape RGB-T model forward path, run ONNX checker validation, execute ONNX Runtime inference, and compare ONNX outputs against PyTorch outputs.
+
+The workflow validates the raw four-input interface:
+
+```text
+rgb_template: [1, 3, 128, 128]
+ir_template:  [1, 3, 128, 128]
+rgb_search:   [1, 3, 256, 256]
+ir_search:    [1, 3, 256, 256]
+```
+
+Run the validation with:
+
+```bash
+conda activate mobilevit-track
+
+python tools/onnx/00_inspect_model_io.py --device cpu --checkpoint <CHECKPOINT_PATH>
+python tools/onnx/01_pytorch_smoke_test.py --device cpu --checkpoint <CHECKPOINT_PATH>
+python tools/onnx/02_export_onnx.py --device cpu --checkpoint <CHECKPOINT_PATH>
+python tools/onnx/03_run_onnx_smoke_test.py
+python tools/onnx/04_compare_pytorch_onnx.py
+```
+
+A short tracker-level ONNX smoke test can also be run on a small RGBT234 sequence:
+
+```bash
+python tools/onnx/05_test_tracker_onnx.py \
+  --dataset-root <RGBT234_ROOT> \
+  --onnx tools/onnx/artifacts/mmmobilevit_track_fixed.onnx \
+  --device cpu \
+  --num-frames 10
+```
+
+This ONNX workflow is intended for deployment validation and reproducibility checks. It is not a full dataset evaluation, benchmark, or training pipeline.
+
 ---
 
 ## Attribute-based analysis (RGBT234)

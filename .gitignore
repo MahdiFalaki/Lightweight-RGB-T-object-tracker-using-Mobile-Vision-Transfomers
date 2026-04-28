@@ -1,0 +1,25 @@
+
+# Training artifacts / large files
+pretrained_models/
+output/
+models/
+tensorboard/
+
+# Common junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.idea/
+.vscode/
+
+# ONNX generated artifacts
+tools/onnx/artifacts/*.onnx
+tools/onnx/artifacts/*.npz
+tools/onnx/artifacts/*.npy
+tools/onnx/artifacts/*.json
+tools/onnx/artifacts/*.txt
+tools/onnx/artifacts/tracker_smoke/*.txt
+tools/onnx/artifacts/tracker_smoke/debug_frames/
+tools/onnx/IMPLEMENTATION_STATUS.md
